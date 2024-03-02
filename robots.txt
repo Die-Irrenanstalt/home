@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://diadz.de/sitemap.xml
