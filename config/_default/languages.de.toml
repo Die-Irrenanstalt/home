@@ -1,0 +1,24 @@
+languageCode = "de"
+languageName = "Deutsch"
+weight = 1
+title = "DIADZ"
+
+[params]
+  displayName = "DE"
+  isoCode = "de"
+  rtl = false
+  dateFormat = "02.01.2006"
+  logo = "/img/diadz-banner.webp"
+  # secondaryLogo = "img/DIADZ.png"
+  description = "Zentrale"
+  copyright = ""
+
+[author]
+  name = "Die Irren aus der Zukunft"
+  image = "img/diadzv9.svg"
+  headline = "gegr. 2017"
+  bio = "未来は私たちのものです"
+  links = [
+    { github = "https://github.com/Die-Irrenanstalt" },
+    { codeberg = "https://codeberg.org/DIADZ" },
+  ]

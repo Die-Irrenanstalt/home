@@ -1,0 +1,11 @@
+{
+    "name": "benni18957",
+    "image" : "img/benni.webp",
+    "bio": "Founder | Sysadmin",
+    "social": [
+        { "globe": "https://benni18957.de" },
+        { "twitter": "https://twitter.com/benni18957" },
+        { "github": "https://github.com/benni18957" },
+        { "codeberg": "https://codeberg.org/benni18957" }
+    ]
+}

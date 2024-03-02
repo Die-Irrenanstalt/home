@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# Contact us via this Form
+Contact: https://diadz.de/contact
+
+# Our OpenPGP key
+Encryption: https://diadz.de/.well-known/diadz-pgp.txt
+
+# If possible use the following languages
+Preferred-Languages: en, de
+
+# Canonical URI
+Canonical: https://diadz.de/.well-known/security.txt
+
+Expires: 2025-01-01T23:00:00.000Z
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTQxiaE7ZojnZk3KAgIvlw7+A4WIgUCZbqTjgAKCRAIvlw7+A4W
+IpDnAP90m4DTjSfcOSHuE3Gvwcxq8kkViLdYgL+HFm0fVpmKWgEA1re1vodUXuRg
+jHosTosvr1uf5/Zi/+QdPAugTlKoWgs=
+=Rix3
+-----END PGP SIGNATURE-----

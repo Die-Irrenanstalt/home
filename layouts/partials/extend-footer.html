@@ -1,0 +1,20 @@
+{{/* Attribution */}}
+<div id="fattr"><div class="fattr">
+    <p class="text-xs text-neutral-100 dark:text-footer-attribution">
+        {{ $hugo := printf `<a class="link link-underline-attr link-underline-yellow text-black"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
+        }}
+        {{ $blowfish := printf `<a class="link link-underline-attr link-underline-yellow text-black"
+          href="https://blowfish.page/" target="_blank" rel="noopener no
+          referrer">Blowfish</a>` }}
+        {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Theme" $blowfish) | safeHTML }}
+    <p class="text-xs text-neutral-100 dark:text-footer-attribution"> {{ $iconify := printf `<a class="link link-underline-attr link-underline-yellow text-black"
+        href="https://iconify.design/" target="_blank" rel="noopener noreferrer">Iconify</a>` }}
+        {{ i18n "footer.animated_icons_by" (dict "Iconify" $iconify) | safeHTML }}</p>
+        
+</div>
+
+
+<div id="flogo"><div class="flogo">
+<object type="image/svg+xml" data="/img/diadz-spotify_animated.svg"></object>
+</div>

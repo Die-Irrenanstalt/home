@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'font';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://cdn.fonts.coollabs.io/anton/normal/400.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  } 
+
+html,
+body {
+    font-family: font;
+}
+  
+:is(.dark .dark\:text-home-name) {
+    --tw-text-opacity: 1;
+    color: rgba(var(--color-neutral-200),var(--tw-text-opacity));
+    animation: flicker-in-1 2s 1 ease forwards;
+}
+
+:is(.dark .dark\:text-footer-copyright) {
+    --tw-text-opacity: 1;
+    color: rgba(var(--color-neutral-300),var(--tw-text-opacity));
+    animation: scale-up-hor-center 1.6s 1 ease;
+}
+
+:is(.dark .dark\:text-footer-attribution) {
+    --tw-text-opacity: 1;
+    color: rgba(var(--color-neutral-100),var(--tw-text-opacity));
+    animation: swing-in-top-fwd 3.5s 1 ease;
+}
+
+:is(.dark .dark\:text-neutral.text-content-header) {
+    --tw-text-opacity: 1;
+    color: rgba(var(--color-neutral),var(--tw-text-opacity));
+    animation: flicker-in-1 2s 1 ease forwards;
+}
+
+:is(.flex.items-center-header-anim) {
+    --tw-text-opacity: 1;
+    color: rgba(var(--color-neutral),var(--tw-text-opacity));
+    animation: tracking-in-expand 2s 1 ease;
+    
+}
+
+:is(.decoration-primary-500.hover\:underline.hover\:decoration-2.hover\:underline-offset-2-footer-anim) {
+    --tw-text-opacity: 1;
+    animation: tracking-in-expand 2s 1 ease;
+    
+}
+
+.link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+    background-size: 0 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s ease-in-out;
+}
+
+.link-underline-attr {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+    background-size: 0 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s ease-in-out;
+}
+
+.link-underline-purple {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#af66c0, #af66c0)
+}
+
+.link-underline-yellow {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#edff21, #edff21)
+}
+
+.link-underline-attr:hover {
+    background-size: 100% 1px;
+    background-position: 0 100%
+}
+
+.link-underline:hover {
+    background-size: 100% 2px;
+    background-position: 0 100%
+}
+
+
+:is(.dark .dark\:prose-invert) {
+    --tw-prose-body: var(--tw-prose-invert-body);
+    --tw-prose-headings: var(--tw-prose-invert-headings);
+    --tw-prose-lead: var(--tw-prose-invert-lead);
+    --tw-prose-links: var(--tw-prose-invert-links);
+    --tw-prose-bold: var(--tw-prose-invert-bold);
+    --tw-prose-counters: var(--tw-prose-invert-counters);
+    --tw-prose-bullets: var(--tw-prose-invert-bullets);
+    --tw-prose-hr: var(--tw-prose-invert-hr);
+    --tw-prose-quotes: var(--tw-prose-invert-quotes);
+    --tw-prose-quote-borders: var(--tw-prose-invert-quote-borders);
+    --tw-prose-captions: var(--tw-prose-invert-captions);
+    --tw-prose-kbd: var(--tw-prose-invert-kbd);
+    --tw-prose-kbd-shadows: var(--tw-prose-invert-kbd-shadows);
+    --tw-prose-code: var(--tw-prose-invert-code);
+    --tw-prose-pre-code: var(--tw-prose-invert-pre-code);
+    --tw-prose-pre-bg: var(--tw-prose-invert-pre-bg);
+    --tw-prose-th-borders: var(--tw-prose-invert-th-borders);
+    --tw-prose-td-borders: var(--tw-prose-invert-td-borders);
+}
+
+.prose {
+    --tw-prose-body: rgba(var(--color-neutral-700), 1);
+    --tw-prose-headings: rgba(var(--color-neutral-800), 1);
+    --tw-prose-lead: rgba(var(--color-neutral-500), 1);
+    --tw-prose-links: rgba(var(--color-primary-600), 1);
+    --tw-prose-bold: rgba(var(--color-neutral-900), 1);
+    --tw-prose-counters: rgba(var(--color-neutral-800), 1);
+    --tw-prose-bullets: rgba(var(--color-neutral-500), 1);
+    --tw-prose-hr: rgba(var(--color-neutral-200), 1);
+    --tw-prose-quotes: rgba(var(--color-neutral-700), 1);
+    --tw-prose-quote-borders: rgba(var(--color-primary-200), 1);
+    --tw-prose-captions: rgba(var(--color-neutral-500), 1);
+    --tw-prose-kbd: #111827;
+    --tw-prose-kbd-shadows: 17 24 39;
+    --tw-prose-code: rgba(var(--color-secondary-700), 1);
+    --tw-prose-pre-code: rgba(var(--color-neutral-700), 1);
+    --tw-prose-pre-bg: rgba(var(--color-neutral-50), 1);
+    --tw-prose-th-borders: rgba(var(--color-neutral-500), 1);
+    --tw-prose-td-borders: rgba(var(--color-neutral-300), 1);
+    --tw-prose-invert-body: rgba(var(--color-neutral-300), 1);
+    --tw-prose-invert-headings: rgba(var(--color-neutral-50), 1);
+    --tw-prose-invert-lead: rgba(var(--color-neutral-500), 1);
+    --tw-prose-invert-links: rgba(var(--color-primary-400), 1);
+    --tw-prose-invert-bold: rgba(var(--color-neutral), 1);
+    --tw-prose-invert-counters: rgba(var(--color-neutral-400), 1);
+    --tw-prose-invert-bullets: rgba(var(--color-neutral-600), 1);
+    --tw-prose-invert-hr: rgba(var(--color-neutral-500), 1);
+    --tw-prose-invert-quotes: rgba(var(--color-neutral-200), 1);
+    --tw-prose-invert-quote-borders: rgba(var(--color-primary-900), 1);
+    --tw-prose-invert-captions: rgba(var(--color-neutral-400), 1);
+    --tw-prose-invert-kbd: #fff;
+    --tw-prose-invert-kbd-shadows: 255 255 255;
+    --tw-prose-invert-code: rgba(var(--color-secondary-400), 1);
+    --tw-prose-invert-pre-code: rgba(var(--color-neutral-200), 1);
+    --tw-prose-invert-pre-bg: rgba(var(--color-neutral-700), 1);
+    --tw-prose-invert-th-borders: rgba(var(--color-neutral-500), 1);
+    --tw-prose-invert-td-borders: rgba(var(--color-neutral-700), 1);
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+:is(.dark .prose .chroma) {
+    background-color: #3e2a42;
+    color: #edff21;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #7e7181 #948996;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+
+  /* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #edff21; 
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7e7181; 
+    border-radius: 0px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #948996; 
+  }
+
+  :is(.dark .dark\:prose-invert) :where(code):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    background-color: #3e2a42;
+}
+
+:is(.dark .copy-button) {
+    background-color: #7e7181;
+    color: #29132e;
+}
