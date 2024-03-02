@@ -16,7 +16,7 @@ layoutBackgroundHeaderSpace: false
 
 >DIADZ oder „Die Irren aus der Zukunft“ ist ein deutscher Internet-Clan, der 2017 von zwei Freunden gegründet wurde, weil „warum nicht, klingt nach Spaß“.
 
-![DIADZ](img/diadzv9-700px_animated_sketch.svg)
+![DIADZ](img/DIADZ_V11.png)
 
 ## DIADZ Homepage Historie
 

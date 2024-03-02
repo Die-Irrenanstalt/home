@@ -16,7 +16,7 @@ layoutBackgroundHeaderSpace: false
 
 >DIADZ or "Die Irren aus der Zukunft" is a German internet clan created by 2 friends back in 2017 because "why not, sounds like fun".
 
-![DIADZ](img/diadzv9-700px_animated_sketch.svg)
+![DIADZ](img/DIADZ_V11.png)
 
 ## DIADZ Homepage History
 

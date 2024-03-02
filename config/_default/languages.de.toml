@@ -8,14 +8,14 @@ title = "DIADZ"
   isoCode = "de"
   rtl = false
   dateFormat = "02.01.2006"
-  logo = "/img/diadz-banner.webp"
+  logo = "/img/diadz-banner.png"
   # secondaryLogo = "img/DIADZ.png"
   description = "Zentrale"
   copyright = ""
 
 [author]
   name = "Die Irren aus der Zukunft"
-  image = "img/diadzv9.svg"
+  image = "img/DIADZ_V11.png"
   headline = "gegr. 2017"
   bio = "未来は私たちのものです"
   links = [
