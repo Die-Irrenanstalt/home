@@ -115,13 +115,13 @@ smartTOC = true
   cardViewScreenWidth = false
 
 [firebase]
- # apiKey = "AIzaSyAt5u-Xcvaq8WW6agOyZB-X5gPfKNPeLi8"
- # authDomain = "diadz-web.firebaseapp.com"
- # projectId = "diadz-web"
- # storageBucket = "diadz-web.appspot.com"
- # messagingSenderId = "145268603821"
- # appId = "1:145268603821:web:c5076babd38e7975f1bf24"
- # measurementId = "G-GB539FQDFJ"
+ # apiKey = ""
+ # authDomain = ""
+ # projectId = ""
+ # storageBucket = ""
+ # messagingSenderId = ""
+ # appId = ""
+ # measurementId = ""
 
 [fathomAnalytics]
   # site = "ABC12345"
@@ -139,9 +139,3 @@ smartTOC = true
   # bing = ""
   # pinterest = ""
   # yandex = ""
-
-# matomo tracking: see https://matomo.org/
-[matomo]
-enable = true
-url = "https://analytics.diadz.de/" # your matomo url
-id = "1" # your matomo id
