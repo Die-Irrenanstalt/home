@@ -152,12 +152,6 @@ body {
     color: #edff21;
 }
 
-/* Works on Firefox */
-* {
-    scrollbar-width: thin;
-    scrollbar-color: #7e7181 #948996;
-  }
-  
   /* Works on Chrome, Edge, and Safari */
 
   /* width */
