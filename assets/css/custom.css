@@ -184,3 +184,12 @@ body {
     background-color: #7e7181;
     color: #29132e;
 }
+
+#offenaud {
+    position: absolute;
+    width: 99px;
+    height: 37px;
+    bottom: 5%;
+    left: 100%;
+  }
+  
