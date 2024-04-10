@@ -1,42 +1,38 @@
-# .github/workflows/gh-pages.yml
+name: Deploy to Github Pages
 
-name: GitHub Pages
-
+# run when a commit is pushed to "source" branch
 on:
   push:
     branches:
-      - main
+    - main
 
 jobs:
-  build-deploy:
-    runs-on: netcup-piko
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  deploy:
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: true
-          fetch-depth: 0
+    # checkout to the commit that has been pushed
+    - uses: actions/checkout@v4
 
-      - name: Setup Go
+    - name: Setup Go
       uses: actions/setup-go@v5
       with:
         go-version: '^1.13.1' # The Go version to download (if necessary) and use.
 
-      - name: Setup Hugo
-        uses: https://github.com/peaceiris/actions-hugo@v3
-        with:
-          hugo-version: "latest"
-          extended: true
+    - name: Setup Hugo
+      uses: https://github.com/peaceiris/actions-hugo@v3
+      with:
+        hugo-version: 'latest'
+        extended: true
 
-      - name: Build
-        run: hugo --minify
+    - name: Update Hugo Modules
+      run: hugo mod tidy
 
-      - name: Deploy
-        uses: https://github.com/peaceiris/actions-gh-pages@v4
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./public
+    - name: Build
+      run: hugo --minify
+
+    # push the generated content into the `gh-pages` branch.
+    - name: Deploy
+      uses: https://github.com/peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: public
+        publish_dir: ./public
