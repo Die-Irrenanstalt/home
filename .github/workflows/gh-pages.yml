@@ -9,6 +9,7 @@ on:
 
 jobs:
   build-deploy:
+    runs-on: netcup-piko
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
