@@ -18,7 +18,7 @@ showTableOfContents: true
 
 <link href="/css/privacy.css" rel="stylesheet"></link>
 
-{{< keyword >}}Zuletzt bearbeitet am 28.01.2024{{< /keyword >}}
+{{< keyword >}}Zuletzt bearbeitet am 12.04.2024{{< /keyword >}}
 
 *Die **_Nutzung unserer Webseite_** erfolgt in der Regel **_ohne Angabe personenbezogener Daten._** Soweit auf unseren Seiten **_personenbezogene Daten (beispielsweise Name oder E-Mail-Adresse)_** erhoben werden, erfolgt dies stets auf* **_freiwilliger Basis._**
 
@@ -51,10 +51,6 @@ showTableOfContents: true
 ## Datenschutzerklärung von netcup.de {#netcupprivacy}
 
 *Da diese Webseite beim Hosting-Unternehmen [Netcup](https://netcup.de) läuft, gilt neben unserer eigenen Datenschutzerklärung auch die Datenschutzerklärung von Netcup [https://www.netcup.de/kontakt/datenschutzerklaerung.php](https://www.netcup.de/kontakt/datenschutzerklaerung.php)*
-
-## Umami Analytics
-
-*Diese Website benutzt **_Umami_**, einen **_Webanalysedienst_** der Firma **_Umami Software, Inc_.** Umami verwendet keine sog. **_“Cookies”._** Die Daten werden Datenschutz konform verarbeitet nach **_GDPR Standard._** Dabei werden **_keinerlei personenbezogene Daten erhoben._** Die Daten werden als **_Hash Werte_** gespeichert und lassen **_keinerlei Rückschlüsse_** auf eine **_Person, Gerät oder sonstiges_** zu.* **_Die Analysedaten können öffentlich über folgenden link eingesehen werden [https://analytics.eu.umami.is/share/xIqcA1z2XoGOMtWU/DIADZ](https://analytics.eu.umami.is/share/xIqcA1z2XoGOMtWU/DIADZ)_**
 
 ## Datenschutzerklärung von tally.so {#tallyprivacy}
 

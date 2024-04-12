@@ -18,7 +18,7 @@ showTableOfContents: true
 
 <link href="/css/privacy.css" rel="stylesheet"></link>
 
-{{< keyword >}}Last edited on 28.01.2024{{< /keyword >}}
+{{< keyword >}}Last edited on 12.04.2024{{< /keyword >}}
 
 *Our website is **_generally used without providing any personal data._** As far as **_personal data (e.g. name or e-mail address)_** is **_collected on our pages_**, this is always done on a* **_voluntary basis._**
 
@@ -51,10 +51,6 @@ showTableOfContents: true
 ## Privacy Policy of netcup.de {#netcupprivacy}
 
 *Since this website is run by the hosting company [Netcup](https://netcup.de), their privacy policy [https://www.netcup.de/kontakt/datenschutzerklaerung.php](https://www.netcup.de/kontakt/datenschutzerklaerung.php) also applies in addition to our own data protection declaration.*
-
-## Umami Analytics {#umamiprivacy}
-
-*This website uses **_Umami_**, a **_web analysis service_** from **_Umami Software, Inc._** Umami does not use so-called* **_“cookies”._** *The data is processed in a data protection-compliant manner according to the **_GDPR standard._** **_No personal data is collected._** The data is **_stored as hash values_** and **_does not allow_** any conclusions to be drawn about a person, device or anything else.* **_You can access the data publicly at [https://analytics.eu.umami.is/share/xIqcA1z2XoGOMtWU/DIADZ](https://analytics.eu.umami.is/share/xIqcA1z2XoGOMtWU/DIADZ)_**
 
 ## Privacy Policy of tally.so {#tallyprivacy}
 
