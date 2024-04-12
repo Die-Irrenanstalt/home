@@ -18,7 +18,7 @@ layoutBackgroundHeaderSpace: false
 
 {{< lead >}}In this repo you can find the source files{{< /lead >}}
 
-{{< github repo="Die-Irrenanstalt/DIADZ-Themes" >}}
+{{< forgejo repo="DIADZ/themes" >}}
 
 ---
 
