@@ -8,6 +8,8 @@ github.com/gethugothemes/hugo-modules/icons/font-awesome v0.0.0-20231213094845-4
 github.com/gethugothemes/hugo-modules/icons/font-awesome v0.0.0-20231213094845-42e6b5af6245/go.mod h1:d3gy1vQyfasPmGpau7HpQLrXbOv23PfXclSnjyOBxeU=
 github.com/gethugothemes/hugo-modules/icons/font-awesome v0.0.0-20240331035203-6c6ca12add7d h1:7Nfqfl+/ZtIg/BpC+dY0kkzDiSH7Xc5iILpB+mL4hbg=
 github.com/gethugothemes/hugo-modules/icons/font-awesome v0.0.0-20240331035203-6c6ca12add7d/go.mod h1:d3gy1vQyfasPmGpau7HpQLrXbOv23PfXclSnjyOBxeU=
+github.com/gethugothemes/hugo-modules/icons/font-awesome v0.0.0-20240504032439-79fc09d96848 h1:UB1DXJuZFVYtYNhab7ENYEGfgRffKcvlx67KyjUNquQ=
+github.com/gethugothemes/hugo-modules/icons/font-awesome v0.0.0-20240504032439-79fc09d96848/go.mod h1:d3gy1vQyfasPmGpau7HpQLrXbOv23PfXclSnjyOBxeU=
 github.com/gethugothemes/hugo-modules/modal v0.0.0-20240109021739-061cfb8edb9d h1:Tdojyu+D1aRCDmLTNGLKd138c+liXNrVD3WQoTHWCQw=
 github.com/gethugothemes/hugo-modules/modal v0.0.0-20240109021739-061cfb8edb9d/go.mod h1:Eb9v7oV6biymfvjcBhQdvgn0gUGYhUtfCMeOBLFpFsk=
 github.com/gethugothemes/hugo-modules/seo-tools/counter-analytics v0.0.0-20231025030535-37017d01a181 h1:qwGEtP6+IUgPpTxM4l+BR0QY358Ks7ZqZ4lDdkuZ5ek=
@@ -24,5 +26,7 @@ github.com/gethugothemes/hugo-modules/shortcodes/notice v0.0.0-20231213094845-42
 github.com/gethugothemes/hugo-modules/shortcodes/notice v0.0.0-20231213094845-42e6b5af6245/go.mod h1:ljWyMJx82WA+6SlKjbGFhEdxcriyvUTCjXkJHDa4lho=
 github.com/gethugothemes/hugo-modules/shortcodes/notice v0.0.0-20240331035203-6c6ca12add7d h1:yPjZdSBpCyc4MNtJwbN1Op6bGQDWPYUHaHadtFBUVvo=
 github.com/gethugothemes/hugo-modules/shortcodes/notice v0.0.0-20240331035203-6c6ca12add7d/go.mod h1:ljWyMJx82WA+6SlKjbGFhEdxcriyvUTCjXkJHDa4lho=
+github.com/gethugothemes/hugo-modules/shortcodes/notice v0.0.0-20240504032439-79fc09d96848 h1:Za2UFBEqXjN0YUeD2HhsE9GaZLBKGvIJ8QHi7pvikys=
+github.com/gethugothemes/hugo-modules/shortcodes/notice v0.0.0-20240504032439-79fc09d96848/go.mod h1:ljWyMJx82WA+6SlKjbGFhEdxcriyvUTCjXkJHDa4lho=
 github.com/gethugothemes/hugo-modules/tab v0.0.0-20240109021739-061cfb8edb9d h1:TZPVvno4sbhQZFWPsilY8KuFvYS5fXBYucdpO4qOq/o=
 github.com/gethugothemes/hugo-modules/tab v0.0.0-20240109021739-061cfb8edb9d/go.mod h1:h3UxlxrFoU19JldxWLPBKaTZFe3AJtABrqo1wfxr+Ng=

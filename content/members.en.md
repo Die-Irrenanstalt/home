@@ -6,6 +6,7 @@ tags: ["authors", "config", "docs"]
 authors:
   - "benni18957"
   - "niki136321"
+  - "kidiges"
 showDate: false
 showPagination: false
 draft: false

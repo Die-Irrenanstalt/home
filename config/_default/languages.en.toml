@@ -19,7 +19,7 @@ title = "DIADZ"
   headline = "Est. 2017"
   bio = "未来は私たちのものです"
   links = [
-    { forgejo = "https://git.bi197.de/DIADZ" },
+    { forgejo = "https://git.diadz.de/DIADZ" },
     { codeberg = "https://codeberg.org/DIADZ" },
     { github = "https://github.com/Die-Irrenanstalt" }
   ]

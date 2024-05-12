@@ -1,5 +1,5 @@
 {{ $id := delimit (slice "forgejo" .Ordinal now.UnixNano) "-" }}
-{{- $forgejoURL := print "https://git.bi197.de/api/v1/repos/" (.Get "repo") -}}
+{{- $forgejoURL := print "https://git.diadz.de/api/v1/repos/" (.Get "repo") -}}
 {{- $forgejoData := getJSON ($forgejoURL) -}}
 {{- $forgejoColors := .Site.Data.githubColors -}}
 {{- with $forgejoData -}}

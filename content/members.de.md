@@ -7,6 +7,7 @@ showAuthor: false
 authors:
   - "benni18957"
   - "niki136321"
+  - "kidiges"
 showAuthorsBadges : false
 showDate: false
 showPagination: false
