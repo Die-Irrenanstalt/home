@@ -1,0 +1,8 @@
+{
+    "name": "Kidiges",
+    "image" : "img/kidiges.png",
+    "bio": "Senior Member",
+    "social": [
+        { "github": "https://github.com/kidiges" }
+    ]
+}
