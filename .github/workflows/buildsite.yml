@@ -21,7 +21,7 @@ jobs:
         go-version: '^1.13.1' # The Go version to download (if necessary) and use.
 
     - name: Setup Hugo
-      uses: https://github.com/peaceiris/actions-hugo@v3
+      uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: 'latest'
         extended: true
@@ -31,7 +31,7 @@ jobs:
 
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
-      uses: https://github.com/peaceiris/actions-gh-pages@v4
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: public
