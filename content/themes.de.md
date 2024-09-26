@@ -18,7 +18,7 @@ layoutBackgroundHeaderSpace: false
 
 {{< lead >}}In diesem Repo befinden sich die quell Dateien{{< /lead >}}
 
-{{< forgejo repo="DIADZ/themes" >}}
+{{< github repo="Die-Irrenanstalt/themes" >}}
 
 ---
 

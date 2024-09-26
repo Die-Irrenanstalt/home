@@ -8,18 +8,17 @@ title = "DIADZ"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "/img/diadz-banner.png"
+  logo = "/img/diadzc.png"
   # secondaryLogo = "img/DIADZ.png"
   description = "Headquarters"
   copyright = ""
 
 [author]
   name = "Die Irren aus der Zukunft"
-  image = "img/DIADZ_V11.png"
+  image = "/img/diadzc.png"
   headline = "Est. 2017"
   bio = "未来は私たちのものです"
   links = [
-    { forgejo = "https://git.diadz.de/DIADZ" },
     { codeberg = "https://codeberg.org/DIADZ" },
     { github = "https://github.com/Die-Irrenanstalt" }
   ]
